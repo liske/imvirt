@@ -1,3 +1,10 @@
+imvirt (0.9.4.1) unstable; urgency=low
+
+  * LXC: Remove inapplicable /proc from procfs_read() parameter
+    (reported by Thorsten Lüttgert <t.luettgert@enda.eu>).
+
+ -- Thomas Liske <liske@ibh.de>  
+
 imvirt (0.9.4) unstable; urgency=low
 
   * Fix some FTBFS due gcc 4.7
