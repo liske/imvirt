@@ -2,6 +2,8 @@ imvirt (0.9.4.1) unstable; urgency=low
 
   * LXC: Remove inapplicable /proc from procfs_read() parameter
     (reported by Thorsten Lüttgert <t.luettgert@enda.eu>).
+  * KVM: Don't count dmesg line twice
+    (reported by Thorsten Lüttgert <t.luettgert@enda.eu>).
 
  -- Thomas Liske <liske@ibh.de>  
 
